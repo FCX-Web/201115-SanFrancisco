@@ -38,6 +38,11 @@ main {
     color: #181818;
 }
 
+h2,
+h3 {
+    font-family: Dayrom;
+}
+
 
 /* HEADER */
 
@@ -45,32 +50,36 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    background: url("images/separateur.png") repeat-x bottom;
+    margin-bottom: 10px;
 }
 
-#logo_titre {
+#pitch {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
+    margin-bottom: 10px;
 }
 
-#logo {
+#zozor {
     display: flex;
     align-items: flex-end;
 }
 
 h1 {
     font-family: BallparkWeiner;
-    margin-left: 10px;
+    margin-left: 12px;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: -10px;
 }
 
 header img {
     width: 60px;
     height: 60px;
-}
-
-h2 {
-    font-family: Dayrom;
-    font-size: 1em;
+    padding-bottom: 20px;
 }
 
 nav {
@@ -98,3 +107,6 @@ nav a:hover {
 .separateur {
     margin-bottom: 10px;
 }
+
+
+/* BANDEAU */
