@@ -26,3 +26,87 @@
 
 
 /*Eléments principaux de la page*/
+
+body {
+    background-image: url("images/fond_jaune.png");
+}
+
+main {
+    max-width: 950px;
+    margin: 20px auto;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #181818;
+}
+
+h2,
+h3 {
+    font-family: Dayrom;
+}
+
+
+/* HEADER */
+
+#entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: url("images/separateur.png") repeat-x bottom;
+    margin-bottom: 10px;
+}
+
+#pitch {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-bottom: 10px;
+}
+
+#zozor {
+    display: flex;
+    align-items: flex-end;
+}
+
+h1 {
+    font-family: BallparkWeiner;
+    margin-left: 12px;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: -10px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    margin-left: 15px;
+    color: #181818;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+.separateur {
+    margin-bottom: 10px;
+}
+
+
+/* BANDEAU */
