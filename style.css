@@ -43,6 +43,11 @@ h3 {
     font-family: Dayrom;
 }
 
+h3 {
+    text-transform: uppercase;
+    color: #181818;
+}
+
 
 /* HEADER */
 
@@ -127,16 +132,20 @@ nav a:hover {
     height: 33px;
     padding-top: 15px;
     padding-left: 4px;
+    margin-bottom: -8px;
     background-color: rgba(24, 24, 24, 0.8);
     color: white;
     font-size: 0.8em;
 }
 
-#banniere_image img {
+#banniere_image img:first-child {
     width: 100%;
 }
 
 #bouton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
     background: url('images/fond_degraderouge.png') repeat-x;
     height: 25px;
@@ -147,6 +156,100 @@ nav a:hover {
     font-size: 1.2em;
     text-align: center;
     padding: 3px 8px 0px 8px;
+}
+
+#bouton a {
     color: white;
+    margin-right: 5px;
     text-decoration: none;
 }
+
+
+/* SECTION */
+
+section {
+    display: flex;
+    background: url("images/separateur.png") repeat-x bottom;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+article {
+    flex: 3.2;
+    margin-right: 20px;
+}
+
+article div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+article p,
+aside p {
+    text-align: justify;
+}
+
+article h3 {
+    font-size: 1.2em;
+    padding-left: 15px;
+    align-self: flex-end;
+}
+
+article p {
+    font-size: 0.9em;
+}
+
+em {
+    color: red;
+    text-decoration: underline;
+}
+
+aside {
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.8em;
+    height: 50%;
+}
+
+aside h3 {
+    color: white;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+#photo_zozor {
+    text-align: center;
+    margin-top: 15px;
+}
+
+aside p {
+    margin-top: 15px;
+}
+
+#widgets {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bulle {
+    position: relative;
+    top: 160px;
+    right: 260px;
+}
+
+#fleche_top {
+    position: relative;
+    left: 50%;
+    bottom: 20px;
+}
+
+
+/* FOOTER */
