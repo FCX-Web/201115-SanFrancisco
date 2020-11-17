@@ -253,3 +253,23 @@ aside p {
 
 
 /* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+#tweet p {
+    margin-bottom: 15px;
+}
+
+#liste_amis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
