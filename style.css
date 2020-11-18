@@ -194,7 +194,7 @@ aside p {
 article h3 {
     font-size: 1.2em;
     padding-left: 15px;
-    align-self: flex-end;
+    align-self: center;
 }
 
 article p {
@@ -258,18 +258,41 @@ footer {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
+    margin-top: -20px;
 }
 
 footer h3 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #tweet p {
     margin-bottom: 15px;
 }
 
+#tweet {
+    width: 35%;
+}
+
+#photos {
+    width: 35%;
+}
+
+#amis {
+    width: 35%;
+}
+
 #liste_amis {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+#liste_amis ul {
+    list-style-image: url('images/ico_liensexterne.png');
+}
+
+#liste_amis a {
+    text-decoration: none;
+    color: #760001;
 }
