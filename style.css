@@ -214,6 +214,7 @@ aside {
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
+    margin-right: -10px;
     color: white;
     font-size: 0.8em;
     height: 50%;
@@ -242,7 +243,7 @@ aside p {
 #bulle {
     position: relative;
     top: 160px;
-    right: 260px;
+    right: 256px;
 }
 
 #fleche_top {
