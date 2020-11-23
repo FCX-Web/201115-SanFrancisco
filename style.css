@@ -254,7 +254,7 @@ aside p {
 #fleche_top {
     position: absolute;
     left: 50%;
-    bottom: 100px;
+    bottom: -30px;
 }
 
 
