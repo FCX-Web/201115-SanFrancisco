@@ -150,7 +150,7 @@ nav a:hover {
     background: url('images/fond_degraderouge.png') repeat-x;
     height: 25px;
     right: 5px;
-    bottom: 5px;
+    bottom: 20%;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
@@ -271,15 +271,17 @@ footer h3 {
 }
 
 #tweet {
-    width: 35%;
+    width: 32%;
 }
 
 #photos {
     width: 35%;
+    margin: -1px;
 }
 
 #amis {
     width: 35%;
+    margin: -2px;
 }
 
 #liste_amis {
